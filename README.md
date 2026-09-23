@@ -91,14 +91,14 @@ SIH-HACKATHON/
 
 2. **Install dependencies**:
    ```bash
-   cd config && npm install
+   cd frontend && npm install
    ```
 
 3. **Start the development server**:
    ```bash
    npm run dev
    ```
-   *(Or from the repository root: `npm --prefix config run dev`)*
+   *(Or from the repository root: `npm --prefix frontend run dev`)*
 
    Open [http://localhost:5173](http://localhost:5173) in your browser to launch the CrimeLens tactical terminal.
 
@@ -106,13 +106,13 @@ SIH-HACKATHON/
 
 To compile a production bundle:
 ```bash
-npm --prefix config run build
+npm --prefix frontend run build
 ```
-*(Or inside `config/`: `npm run build`)*
+*(Or inside `frontend/`: `npm run build`)*
 
 To preview the production bundle locally:
 ```bash
-npm --prefix config run preview
+npm --prefix frontend run preview
 ```
 
 ---

@@ -9,7 +9,6 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: path.resolve(__dirname, '../frontend'),
   build: {
     outDir: path.resolve(__dirname, '../dist'),
     emptyOutDir: true
